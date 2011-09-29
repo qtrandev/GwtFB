@@ -1,0 +1,120 @@
+/** Add css rules here for your application. */
+
+
+
+body {
+	width: 100%;
+}
+
+#TheApp {
+	width: 700px;
+}
+
+#TopMenu, #TopMenuLinks {
+	width: 100%;
+}
+
+#TopMenuLinks{
+	margin: 10px;
+	padding: 5px;
+	font-size: 120%;
+	background: #e5ecf9;
+	border-top: 1px solid #3366cc;
+}
+
+#TopMenuLinks a {
+	margin-right: 5px;
+}
+
+#SideBarView {
+	width: 200px;
+	margin-left: 20px;
+}
+
+#MainView {
+	border-left: 1px solid 	#3366cc;
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 800px;
+}
+
+#MainView , .header {
+	width: 800px;
+}
+
+/* Header in examples */
+.smallheader, .header {
+	font-size: 130%;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+
+.smallheader, .header .gwt-HTML {
+	font-size: 130%;
+}
+
+.header a {
+	float: right;
+}
+
+.smallheader {
+	font-size: 110%;
+}
+
+/* Sourcelink on the upper right side */
+.sourceLink {
+	text-decoration: none;
+}
+
+/* Generic json ouput */
+.jsonOutput {
+	font-size: 90%;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #cccccc;
+}
+
+.example {
+	margin-top: 10px;
+}
+
+/* Post */
+.post {
+	margin: 5px;
+}
+
+.post .gwt-HTML {
+	width: 700px;
+	margin: 10px;
+}
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
